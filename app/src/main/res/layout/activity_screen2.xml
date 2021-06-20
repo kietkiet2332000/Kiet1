@@ -38,4 +38,55 @@
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="393dp" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="186dp"
+        android:layout_height="29dp"
+        android:text="Starbuck Coffee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/akar"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vec"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/minus"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="479dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
