@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="247dp"
+        app:srcCompat="@drawable/caramel1"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/s"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/m"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/l"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="393dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
