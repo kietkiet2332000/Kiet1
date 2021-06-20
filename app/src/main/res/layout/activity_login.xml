@@ -32,10 +32,11 @@
         android:textColor="#000000"
         android:textSize="30dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintStart_toStartOf="@+id/inputEmail"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/inputEmail"
@@ -61,7 +62,7 @@
         android:layout_marginTop="112dp"
         android:text="LOGIN"
         android:textSize="20dp"
-        app:backgroundTint="#000000"
+        app:backgroundTint="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,9 +86,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot your password ?"
+        android:textColor="#A56F6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="681dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
